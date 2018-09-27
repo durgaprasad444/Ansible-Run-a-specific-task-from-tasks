@@ -5,4 +5,4 @@
     - name: Run tasks/specific task instead of 'main'
       import_role:
         name: Aws_services
-        tasks_from: terminate_ec2
+        tasks_from: create_ec2

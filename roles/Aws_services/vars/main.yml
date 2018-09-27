@@ -1,9 +1,9 @@
 ---
 # vars file for ec2
-keypair: ram
+keypair: 
 instance_type: t2.micro
-security_group: launch-wizard-61
-image: ami-7c87d913
+security_group: 
+image: 
 region: ap-south-1
-vpc_subnet_id: subnet-0eec5166
-instance_ids: i-0d05357bffbe757a0
+vpc_subnet_id: 
+instance_ids: 
