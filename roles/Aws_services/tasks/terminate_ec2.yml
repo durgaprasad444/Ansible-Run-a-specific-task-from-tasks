@@ -1,0 +1,8 @@
+---
+- name: Terminate the instance that previously launched
+  ec2:
+    instance_ids: '{{ instance_ids }}'
+    state: 'absent'
+    wait: true
+    region: '{{ region }}'
+    vpc_subnet_id: '{{ vpc_subnet_id }}'

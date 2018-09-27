@@ -1,0 +1,8 @@
+- hosts: localhost
+  tasks:
+    - import_role:
+        name: Aws_services
+    - name: Run tasks/specific task instead of 'main'
+      import_role:
+        name: Aws_services
+        tasks_from: terminate_ec2
